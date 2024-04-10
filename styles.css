@@ -1,17 +1,44 @@
+.topnav {
+  background-color: #DC136C;
+  justify-content: space-around;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: white;
+    font-family: forma-djr-banner;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #00ad38;
+  }
+
 body{
   display: flex;
   margin: auto;
   width: 60%;
+  overflow-x: hidden;
   justify-content: center;
   background-color: #DC136C;
   color: ghostwhite;
   font-family: monospace;
   font-size: 16px;
+  text-align: center;
 }
 
-#chia{
-  width: 50%;
-  border-radius: 70px;
+a{
+  text-decoration: none;
+  font-family: ivypresto-display;
+  color: ghostwhite;
+  font-size: 24px;
+
 }
 
 @font-face {
@@ -28,75 +55,380 @@ body{
   src: url(https://use.typekit.net/zvt0bqe.css);
 }
 
+@font-face {
+  font-family: "gothicus", serif;
+  font-weight: 400;
+  font-style: normal;  
+  src: url(https://use.typekit.net/zvt0bqe.css);
+}
+
 h1{
   font-family: ivypresto-display;
   color: ghostwhite;
   text-align: center;
-  font-size: 200px;
+  font-size: 300px;
   line-height: 175px;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  justify-content: center;
+  z-index: 0;
+}
+
+h2{
+  font-family: ivypresto-display;
+  color: ghostwhite;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: 250px;
+  line-height: 175px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 85px;
+}
+
+h3{
+  font-family: ivypresto-display;
+  color: ghostwhite;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: 108px;
+  line-height: 84px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-#pic1{
+.w1title{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
   position: absolute;
-  top: 100px;
+  top: 330px;
   left: 50px;
-}
-
-#pic2{
-  position: absolute;
-  top: 150px;
-  left: 1050px;
-} 
-
-#pic3{
-  position: absolute;
-  top: 200px;
-  left: 150px;
-}
-
-#head{
-  position: absolute;
-  top: 325px;
-  left: 700px;
-}
-
-.title{
-  font-family: ivypresto-display;
-  font-size: 48px;
-  position: absolute;
-  left: 10px;
-  transform: rotate(-90deg);
+  max-width: 200px;
   flex-wrap: wrap;
   overflow-y: hidden;
 }
 
+.w1title2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  position: absolute;
+  top: 650px;
+  left: 170px;
+  max-width: 200px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.w1title3{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  position: absolute;
+  top: 370px;
+  left: 1150px;
+  max-width: 200px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.w1title4{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  position: absolute;
+  top: 710px;
+  left: 1100px;
+  max-width: 200px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.w1title5{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  position: absolute;
+  top: 520px;
+  left: 630px;
+  max-width: 200px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.w2title{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  position: absolute;
+  top: 330px;
+  left: 50px;
+  max-width: 200px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.w2title3{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  position: absolute;
+  top: 370px;
+  left: 1150px;
+  max-width: 200px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+
+.w2title5{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  position: absolute;
+  top: 520px;
+  left: 630px;
+  max-width: 200px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.w1title{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  position: absolute;
+  top: 330px;
+  left: 50px;
+  max-width: 200px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.w1title2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  position: absolute;
+  top: 650px;
+  left: 170px;
+  max-width: 200px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.w1title3{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  position: absolute;
+  top: 370px;
+  left: 1150px;
+  max-width: 200px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.w1title4{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  position: absolute;
+  top: 710px;
+  left: 1100px;
+  max-width: 200px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.w1title5{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  position: absolute;
+  top: 520px;
+  left: 630px;
+  max-width: 200px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+#chialabel{
+  font-family: gothicus;
+  font-size: 48px;
+  text-align: center;
+}
+
+#chia{
+  width: 20%;
+  border-radius: 100%;
+  position: absolute;
+  top: 560px;
+  left: 155px;
+  z-index: -1;
+}
+
+#chiagain{
+  max-width: 200px;
+  border-radius: 100%;
+  position: absolute;
+  top: 550px;
+  right: 310px;
+  transform: rotate(-15deg);
+}
+
+#pic1{
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  z-index: -5;
+}
+
+#pic2{
+  position: absolute;
+  top: 380px;
+  left: 1020px;
+} 
+
+#pic3{
+  position: absolute;
+  top: 560px;
+  left: 200px;
+  z-index: -3;
+}
+
+#pic4{
+  position: absolute;
+  top: 600px;
+  left: 1200px;
+}
+
+#pic5{
+  position: absolute;
+  top: 480px;
+  left: 1220px;
+} 
+
+#pic6{
+  position: absolute;
+  top: 715px;
+  left: 10px;
+  z-index: -3;
+}
+
+#head{
+  position: absolute;
+  top: 125px;
+  left: 315px;
+  z-index: -1;
+}
+
+#candy{
+  position: absolute;
+  top: 470px;
+  left: 1030px;
+}
+
+#heart{
+  position: absolute;
+  top: 495px;
+  left: 50px;
+}
+
+#simm{
+  position: absolute;
+  top: 610px;
+  left: 1015;
+  transform: rotate(20deg);
+}
+
+#work1img{
+margin: 30px;
+}
+
+#game{
+  position: absolute;
+  top: 1150px;
+  left: 175px;
+  width: 20%;
+  animation-name: spin;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+}
+
+
+#work1bio{
+  margin: auto;
+}
+
 footer{
   justify-content: center;
-  align-items: center;
-  font-family: forma-djr-banner;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: ivypresto-display;
   color: white;
 }
 
-.topnav {
-  background-color: #DC136C;
-  justify-content: center;
-    overflow: hidden;
+@keyframes spin {
+  0%{
+transform: rotate(36deg);  
   }
+
+  10%{
+  transform: rotate(72deg);  
+  }
+
+  20%{
+    transform: rotate(108deg);  
+    }
+
+  30%{
+    transform: rotate(144deg);  
+    }
+  40%{
+    transform: rotate(180deg);  
+    } 
+
+  50%{
+    transform: rotate(216deg);  
+    }
+
+  60%{
+    transform: rotate(252deg);  
+    }
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: white;
-    font-family: forma-djr-banner;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18Spx;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #00ad38;
-  }
+  70%{
+    transform: rotate(288deg);  
+    }
+
+  80%{
+    transform: rotate(324deg);  
+    }
+  90%{
+    transform: rotate(360deg);  
+    } 
+
+  100%{
+transform: rotate(0deg);  
+}
+
+}
+
+  @media only screen and (max-width: 1000px){
+    body{
+        width: 1000px;
+        margin: auto;
+    }
+    
+    .container{
+        padding-top: 0px;
+    }
+    figure.item{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .container{
+        padding-top: 0px;
+    }
+    figure.item{
+        width: 600px;
+        height: 600px;
+    }
+}
