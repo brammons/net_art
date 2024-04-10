@@ -186,7 +186,7 @@ h3{
   overflow-y: hidden;
 }
 
-.w1title{
+.w3title{
   font-family: 'Courier New', Courier, monospace;
   font-size: 21px;
   position: absolute;
@@ -197,18 +197,7 @@ h3{
   overflow-y: hidden;
 }
 
-.w1title2{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 21px;
-  position: absolute;
-  top: 650px;
-  left: 170px;
-  max-width: 200px;
-  flex-wrap: wrap;
-  overflow-y: hidden;
-}
-
-.w1title3{
+.w3title3{
   font-family: 'Courier New', Courier, monospace;
   font-size: 21px;
   position: absolute;
@@ -219,18 +208,7 @@ h3{
   overflow-y: hidden;
 }
 
-.w1title4{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 21px;
-  position: absolute;
-  top: 710px;
-  left: 1100px;
-  max-width: 200px;
-  flex-wrap: wrap;
-  overflow-y: hidden;
-}
-
-.w1title5{
+.w3title5{
   font-family: 'Courier New', Courier, monospace;
   font-size: 21px;
   position: absolute;
