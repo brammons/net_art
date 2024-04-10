@@ -246,7 +246,7 @@ h3{
 #pic1{
   position: absolute;
   top: 400px;
-  left: 50px;
+  left: -350px;
   z-index: -5;
 }
 
@@ -259,7 +259,7 @@ h3{
 #pic3{
   position: absolute;
   top: 560px;
-  left: 200px;
+  left: -450px;
   z-index: -3;
 }
 
@@ -278,14 +278,14 @@ h3{
 #pic6{
   position: absolute;
   top: 715px;
-  left: 10px;
+  left: -190px;
   z-index: -3;
 }
 
 #head{
   position: absolute;
-  top: 125px;
-  left: 315px;
+  top: 450px;
+  left: 230px;
   z-index: -1;
 }
 
@@ -314,9 +314,9 @@ margin: 30px;
 
 #game{
   position: absolute;
-  top: 1150px;
-  left: 175px;
-  width: 20%;
+  top: 1125px;
+  left: 250px;
+  width: 15%;
   animation-name: spin;
   animation-duration: 12s;
   animation-iteration-count: infinite;
